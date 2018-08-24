@@ -1,0 +1,28 @@
+.icon{
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: left center;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon.icon_agree{
+    background-image: url("../assets/agree.png");    
+}
+
+.icon.icon_wrong{
+    background-image: url("../assets/wrong.png");    
+}
+
+.w12{
+    width: 1.3rem;
+}
+
+.h12{
+    height: 1.3rem;
+}
